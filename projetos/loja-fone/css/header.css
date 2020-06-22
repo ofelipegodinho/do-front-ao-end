@@ -1,9 +1,10 @@
 header {
     background-color: #e24647;
     color: #fff;
+    margin: 0 115px; 
     overflow: hidden;
+    padding: 55px 60px 95px;
 }
-
 
 h1 {
     float: left;
