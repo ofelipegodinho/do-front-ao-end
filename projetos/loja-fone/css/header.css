@@ -4,6 +4,10 @@ header {
     margin: 0 115px; 
     overflow: hidden;
     padding: 55px 60px 95px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100vw - 330px);
 }
 
 h1 {
@@ -20,5 +24,13 @@ nav {
 
 a {
     color: inherit;
+    margin-left: 60px;
     text-decoration: none;
+}
+
+button {
+    background-color: #252c41;
+    color: #fff;
+    height: 60px;
+    width: 200px;;
 }
